@@ -48,10 +48,10 @@ internal func exerciseOne() {
     let state = userData["results"][0]["location"]["state"].stringValue
     let city = userData["results"][0]["location"]["city"].stringValue
     let street = userData["result"][0]["location"]["street"].stringValue
-    let postcode = userData["result"][0]["location"]["postcode"].stringValue
+    let post = userData["result"][0]["location"]["postcode"].stringValue
     
     
-    print ("\(firstName) \(lastName) lives at \(street) in \(city), \(state), \(postcode). If you want to contact \(titleName). \(lastName), you can email \(emailAddress) or call at \(cell). " )
+    print ("\(firstName) \(lastName) lives at \(street) in \(city), \(state), \(post). If you want to contact \(titleName). \(lastName), you can email \(emailAddress) or call at \(cell). " )
        
     
     
